@@ -9,6 +9,7 @@ class Region(models.Model):
     def __str__(self):
         return self.name
 
+
 class Department(models.Model):
     name = models.CharField("Département", max_length=255)
     number = models.CharField("Numéro du département", max_length=3, unique=True)
