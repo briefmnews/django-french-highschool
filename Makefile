@@ -6,3 +6,4 @@ clean:
 
 install:
 	pip install -r test_requirements.txt
+	pre-commit install
