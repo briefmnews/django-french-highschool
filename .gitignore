@@ -1,0 +1,11 @@
+.python-version
+.idea
+*.pyc
+.pytest_cache
+
+#Tests coverage
+dist/
+build/
+.coverage
+htmlcov/
+*.egg-info
