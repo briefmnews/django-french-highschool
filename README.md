@@ -2,9 +2,9 @@
 French high school database with UAI, department and region
 
 ## Installation
-Install with pip. Example with app version 0.0.2:
+Install with pip:
 ```
-pip install -e git+https://git@github.com/briefmnews/django-french-highschool.git@0.0.2#egg=django-french-highschool-0.0.2
+pip install django-french-highschool
 ```
 
 
