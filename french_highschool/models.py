@@ -39,3 +39,7 @@ class School(models.Model):
 
     def __str__(self):
         return self.name
+
+    class Meta:
+        verbose_name = "École"
+        verbose_name_plural = "Écoles"
