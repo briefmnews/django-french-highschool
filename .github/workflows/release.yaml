@@ -11,8 +11,8 @@ jobs:
     timeout-minutes: 2
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: pre-commit/action@v3.0.0
+      - uses: actions/checkout@v4
+      - uses: pre-commit/action@v3.0.1
       - name: Create release
         uses: marvinpinto/action-automatic-releases@latest
         with:
