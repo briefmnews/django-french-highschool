@@ -20,4 +20,4 @@ release_test:
 release_prod:
 	- rm -rf build && rm -rf dist && rm -rf *.egg-info
 	- python setup.py sdist bdist_wheel
-	- python -m twine upload dist/* --repository django-french-highschool --verbose
+	- python -m twine upload dist/*
