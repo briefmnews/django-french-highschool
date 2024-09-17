@@ -1,8 +1,6 @@
 -r requirements.txt
-black==23.7.0
-pre-commit==3.3.3
-twine==4.0.1
-wheel==0.37.1
-setuptools==69.0.1
-twine==4.0.1
-wheel==0.37.1
+black==24.8.0
+pre-commit==3.8.0
+twine==5.1.1
+wheel==0.44.0
+setuptools==75.1.0
